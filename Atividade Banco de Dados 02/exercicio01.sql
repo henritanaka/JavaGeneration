@@ -1,4 +1,4 @@
-create database db_RH2;
+postagempostagemcreate database db_RH2;
 use db_RH2;
 create table tb_cargo(
 	numeracao bigint auto_increment,

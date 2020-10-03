@@ -37,3 +37,7 @@ select * from tb_produtos where preco < 2000;
 select * from tb_produtos where preco > 1000 and preco < 2000;
 select nome,preco from tb_produtos where nome like "C%";
 
+select *
+	from tb_produtos
+left join tb_categoria on tb_produtos.categoria = tb_categoria.id
+where tb_categoria.tipo = "Livro"
